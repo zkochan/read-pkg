@@ -1,7 +1,7 @@
 'use strict';
 var path = require('path');
 var loadJsonFile = require('load-json-file');
-var normalizePackageData = require('normalize-package-data');
+var normalizePackageData = require('@zkochan/normalize-package-data');
 var pathType = require('path-type');
 
 module.exports = function (fp, opts) {

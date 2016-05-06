@@ -36,7 +36,7 @@ readPkg().then(function (pkg) {
 	//    license: 'MIT',
 	//    repository: 
 	//     { type: 'git',
-	//       url: 'git+https://github.com/zkochan/read-pkg.git' },
+	//       url: 'git+ssh://git@github.com/zkochan/read-pkg.git' },
 	//    author: 
 	//     { name: 'Sindre Sorhus',
 	//       email: 'sindresorhus@gmail.com',
@@ -56,8 +56,8 @@ readPkg().then(function (pkg) {
 	//       'package',
 	//       'normalize' ],
 	//    dependencies: 
-	//     { 'load-json-file': '^1.0.0',
-	//       'normalize-package-data': '^2.3.2',
+	//     { '@zkochan/normalize-package-data': '^2.3.6',
+	//       'load-json-file': '^1.0.0',
 	//       'path-type': '^1.0.0' },
 	//    devDependencies: { ava: '*', mos: '^0.16.0', xo: '*' },
 	//    bugs: { url: 'https://github.com/zkochan/read-pkg/issues' },
@@ -74,7 +74,7 @@ readPkg(__dirname).then(function (pkg) {
 	//    license: 'MIT',
 	//    repository: 
 	//     { type: 'git',
-	//       url: 'git+https://github.com/zkochan/read-pkg.git' },
+	//       url: 'git+ssh://git@github.com/zkochan/read-pkg.git' },
 	//    author: 
 	//     { name: 'Sindre Sorhus',
 	//       email: 'sindresorhus@gmail.com',
@@ -94,8 +94,8 @@ readPkg(__dirname).then(function (pkg) {
 	//       'package',
 	//       'normalize' ],
 	//    dependencies: 
-	//     { 'load-json-file': '^1.0.0',
-	//       'normalize-package-data': '^2.3.2',
+	//     { '@zkochan/normalize-package-data': '^2.3.6',
+	//       'load-json-file': '^1.0.0',
 	//       'path-type': '^1.0.0' },
 	//    devDependencies: { ava: '*', mos: '^0.16.0', xo: '*' },
 	//    bugs: { url: 'https://github.com/zkochan/read-pkg/issues' },

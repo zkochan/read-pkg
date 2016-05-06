@@ -32,8 +32,8 @@
     "normalize"
   ],
   "dependencies": {
+    "@zkochan/normalize-package-data": "^2.3.6",
     "load-json-file": "^1.0.0",
-    "normalize-package-data": "^2.3.2",
     "path-type": "^1.0.0"
   },
   "devDependencies": {

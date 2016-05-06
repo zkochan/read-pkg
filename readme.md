@@ -1,5 +1,5 @@
 <!--@'# ' + package.name + shields('travis')-->
-# read-pkg[![Build status for master](https://img.shields.io/travis/sindresorhus/read-pkg/master.svg?style=flat)](https://travis-ci.org/sindresorhus/read-pkg)
+# @zkochan/read-pkg[![Build status for master](https://img.shields.io/travis/zkochan/read-pkg/master.svg?style=flat)](https://travis-ci.org/zkochan/read-pkg)
 <!--/@-->
 
 > Read a package.json file
@@ -17,7 +17,7 @@
 This module is installed via npm:
 
 ```sh
-npm install read-pkg --save
+npm install @zkochan/read-pkg --save
 ```
 <!--/@-->
 
@@ -25,26 +25,26 @@ npm install read-pkg --save
 
 <!--@example('example.js')-->
 ```js
-var readPkg = require('read-pkg');
+var readPkg = require('@zkochan/read-pkg');
 var path = require('path');
 
 readPkg().then(function (pkg) {
 	console.log(pkg);
-	//> { name: 'read-pkg',
-	//    version: '1.1.0',
+	//> { name: '@zkochan/read-pkg',
+	//    version: '1.1.1',
 	//    description: 'Read a package.json file',
 	//    license: 'MIT',
-	//    repository:
+	//    repository: 
 	//     { type: 'git',
-	//       url: 'git+https://github.com/sindresorhus/read-pkg.git' },
-	//    author:
+	//       url: 'git+https://github.com/zkochan/read-pkg.git' },
+	//    author: 
 	//     { name: 'Sindre Sorhus',
 	//       email: 'sindresorhus@gmail.com',
 	//       url: 'sindresorhus.com' },
 	//    engines: { node: '>=0.10.0' },
 	//    scripts: { test: 'xo && ava', md: 'mos' },
 	//    files: [ 'index.js' ],
-	//    keywords:
+	//    keywords: 
 	//     [ 'json',
 	//       'read',
 	//       'parse',
@@ -55,34 +55,34 @@ readPkg().then(function (pkg) {
 	//       'pkg',
 	//       'package',
 	//       'normalize' ],
-	//    dependencies:
+	//    dependencies: 
 	//     { 'load-json-file': '^1.0.0',
 	//       'normalize-package-data': '^2.3.2',
 	//       'path-type': '^1.0.0' },
 	//    devDependencies: { ava: '*', mos: '^0.16.0', xo: '*' },
-	//    bugs: { url: 'https://github.com/sindresorhus/read-pkg/issues' },
+	//    bugs: { url: 'https://github.com/zkochan/read-pkg/issues' },
 	//    readme: 'ERROR: No README data found!',
-	//    homepage: 'https://github.com/sindresorhus/read-pkg#readme',
-	//    _id: 'read-pkg@1.1.0' }
+	//    homepage: 'https://github.com/zkochan/read-pkg#readme',
+	//    _id: '@zkochan/read-pkg@1.1.1' }
 });
 
 readPkg(__dirname).then(function (pkg) {
 	console.log(pkg);
-	//> { name: 'read-pkg',
-	//    version: '1.1.0',
+	//> { name: '@zkochan/read-pkg',
+	//    version: '1.1.1',
 	//    description: 'Read a package.json file',
 	//    license: 'MIT',
-	//    repository:
+	//    repository: 
 	//     { type: 'git',
-	//       url: 'git+https://github.com/sindresorhus/read-pkg.git' },
-	//    author:
+	//       url: 'git+https://github.com/zkochan/read-pkg.git' },
+	//    author: 
 	//     { name: 'Sindre Sorhus',
 	//       email: 'sindresorhus@gmail.com',
 	//       url: 'sindresorhus.com' },
 	//    engines: { node: '>=0.10.0' },
 	//    scripts: { test: 'xo && ava', md: 'mos' },
 	//    files: [ 'index.js' ],
-	//    keywords:
+	//    keywords: 
 	//     [ 'json',
 	//       'read',
 	//       'parse',
@@ -93,15 +93,15 @@ readPkg(__dirname).then(function (pkg) {
 	//       'pkg',
 	//       'package',
 	//       'normalize' ],
-	//    dependencies:
+	//    dependencies: 
 	//     { 'load-json-file': '^1.0.0',
 	//       'normalize-package-data': '^2.3.2',
 	//       'path-type': '^1.0.0' },
 	//    devDependencies: { ava: '*', mos: '^0.16.0', xo: '*' },
-	//    bugs: { url: 'https://github.com/sindresorhus/read-pkg/issues' },
+	//    bugs: { url: 'https://github.com/zkochan/read-pkg/issues' },
 	//    readme: 'ERROR: No README data found!',
-	//    homepage: 'https://github.com/sindresorhus/read-pkg#readme',
-	//    _id: 'read-pkg@1.1.0' }
+	//    homepage: 'https://github.com/zkochan/read-pkg#readme',
+	//    _id: '@zkochan/read-pkg@1.1.1' }
 });
 
 readPkg(path.join('unicorn', 'package.json')).then(function (pkg) {

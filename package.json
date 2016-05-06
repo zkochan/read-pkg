@@ -1,6 +1,6 @@
 {
   "name": "@zkochan/read-pkg",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Read a package.json file",
   "license": "MIT",
   "repository": "zkochan/read-pkg",
